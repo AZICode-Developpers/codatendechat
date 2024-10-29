@@ -1,0 +1,24 @@
+# Node.js
+# Ignorar node_modules em ambas as pastas
+backend/node_modules/
+frontend/node_modules/
+
+backend/package-lock.json
+backend/.env
+frontend/package-lock.json
+frontend/.env
+frontend/package.json.old
+
+# Logs e arquivos temporários do sistema
+*.log
+*.temp
+*.tmp
+*.swp
+*.swo
+
+# Arquivos de configuração local e IDEs
+*.env
+*.local
+.DS_Store
+.idea/
+.vscode/
